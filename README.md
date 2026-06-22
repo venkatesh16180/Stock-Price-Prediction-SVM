@@ -95,35 +95,31 @@ limited computational resources.
 Stock-Price-Prediction-SVM/
 │
 ├── Publication/
-│   ├── Publication_Soft_Copy.pdf       # Published IJCRT paper
-│   └── Publication_Certificates.pdf    # Publication certificate
+│   ├── Publication_Soft_Copy.pdf           # Published IJCRT paper
+│   ├── IJCRT_Certificate_IJCRT_236626.pdf  # Publication certificate
+│   └── README.md
 │
-├── Final_Review.pptx                   # Source code and methodology
-├── Final_Report.pdf                    # Full 50-page research report
-├── Base_Paper.pdf                      # Literature survey reference
-├── RELIANCE_NS.csv                     # NSE Reliance stock dataset
+├── Stock_Price_Prediction_SVM.ipynb        # Full ML pipeline notebook
+├── Final_Report.pdf                        # Research report
+├── RELIANCE_NS.csv                         # NSE Reliance stock dataset
 └── README.md
 ```
 
 ---
 
 ## 🚀 How to Run
-The source code is documented in `Final_Review.pptx`. To replicate:
-
-1. Install dependencies:
+1. Clone the repository:
 ```bash
-   pip install pandas numpy scikit-learn matplotlib yfinance
+   git clone https://github.com/venkatesh16180/Stock-Price-Prediction-SVM.git
 ```
-2. Load the dataset:
-```python
-   import pandas as pd
-   df = pd.read_csv('RELIANCE_NS.csv')
+2. Install dependencies:
+```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn yfinance
 ```
-3. Follow the pipeline documented in `Final_Review.pptx` and 
-   `Final_Report.pdf`
-
-> **Note:** For best results, consider converting the source code from 
-> the presentation into a standalone Jupyter notebook.
+3. Open the notebook:
+```bash
+   jupyter notebook Stock_Price_Prediction_SVM.ipynb
+```
 
 ---
 
